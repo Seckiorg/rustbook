@@ -1,26 +1,26 @@
-# The Rust Programming Language
+# Rust Programlama Dili
 
-*by Steve Klabnik and Carol Nichols, with contributions from the Rust Community*
+*Steve Klabnik ve Carol Nichols tarafından, Rust Topluluğunun katkılarıyla*
 
-This version of the text assumes you’re using Rust 1.81.0 (released 2024-09-04)
-or later. See the [“Installation” section of Chapter 1][install]<!-- ignore -->
-to install or update Rust.
+Yazının bu sürümünde Rust 1.81.0 (2024-09-04 tarihli yayını) 
+veya üzeri bir sürümü kullandığınız varsayılmaktadır. 
+Rust'ı yüklemek veya güncellemek için 
+[Bölüm 1'in “Kurulum” kısmına][install]<!-- ignore -->
+bakınız.
 
-The HTML format is available online at
-[https://doc.rust-lang.org/stable/book/](https://doc.rust-lang.org/stable/book/)
-and offline with installations of Rust made with `rustup`; run `rustup doc
---book` to open.
 
-Several community [translations] are also available.
+Yazının özgün (İngilizce) sürümünün HTML biçimine [https://doc.rust-lang.org/stable/book/](https://doc.rust-lang.org/stable/book/) 
+üzerinden çevrim içi olarak, ya da `rustup` ile yapılan Rust kurulumlarında 
+`rustup doc --book` komutuyla çevrim dışı olarak erişilebilir.
 
-This text is available in [paperback and ebook format from No Starch
-Press][nsprust].
+Ayrıca birkaç [topluluk çevirisi][translations] de bulunmaktadır. Türkçe sürümüne [https://rustbook.secki.org/](https://rustbook.secki.org/) üzerinden ulaşabilirsiniz.
+
+Bu yazı ayrıca [No Starch Press basımevinden][nsprust] İngilizce baskılı veya e-kitap biçiminde de edinilebilir.
 
 [install]: ch01-01-installation.html
 [editions]: appendix-05-editions.html
 [nsprust]: https://nostarch.com/rust-programming-language-2nd-edition
 [translations]: appendix-06-translation.html
 
-> **🚨 Want a more interactive learning experience? Try out a different version
-> of the Rust Book, featuring: quizzes, highlighting, visualizations, and
-> more**: <https://rust-book.cs.brown.edu>
+> **🚨 Daha etkileşimli bir öğrenme deneyimi mi istiyorsunuz? Rust Kitabı'nın başka bir sürümünü
+> deneyin: sınavlar, vurgulamalar, görselleştirmeler ve daha fazlası**: <https://rust-book.cs.brown.edu> (İngilizce)

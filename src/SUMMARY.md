@@ -1,6 +1,6 @@
-# The Rust Programming Language
+# Rust Programlama Dili
 
-[The Rust Programming Language](title-page.md)
+[Rust Programlama Dili](title-page.md)
 [Foreword](foreword.md)
 [Introduction](ch00-00-introduction.md)
 
