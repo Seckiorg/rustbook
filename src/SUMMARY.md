@@ -1,135 +1,139 @@
 # Rust Programlama Dili
 
 [Rust Programlama Dili](title-page.md)
-[Foreword](foreword.md)
-[Introduction](ch00-00-introduction.md)
+[Ön söz](foreword.md)
+[Tanıtım](ch00-00-introduction.md)
 
-## Getting started
+## Başlangıç
 
-- [Getting Started](ch01-00-getting-started.md)
-    - [Installation](ch01-01-installation.md)
-    - [Hello, World!](ch01-02-hello-world.md)
-    - [Hello, Cargo!](ch01-03-hello-cargo.md)
+- [Başlarken](ch01-00-getting-started.md)
+    - [Kurulum](ch01-01-installation.md)
+    - [Merhaba, Dünya!](ch01-02-hello-world.md)
+    - [Merhaba, Cargo!](ch01-03-hello-cargo.md)
 
-- [Programming a Guessing Game](ch02-00-guessing-game-tutorial.md)
+- [Öngörme Oyunu Programlayalım](ch02-00-guessing-game-tutorial.md) # Öngörü
 
-- [Common Programming Concepts](ch03-00-common-programming-concepts.md)
-    - [Variables and Mutability](ch03-01-variables-and-mutability.md)
-    - [Data Types](ch03-02-data-types.md)
-    - [Functions](ch03-03-how-functions-work.md)
-    - [Comments](ch03-04-comments.md)
-    - [Control Flow](ch03-05-control-flow.md)
+- [Yaygın Programlama Kavramları](ch03-00-common-programming-concepts.md)
+    - [Değişkenler ve Değişebilirlik](ch03-01-variables-and-mutability.md)
+    - [Veri Türleri](ch03-02-data-types.md)
+    - [İşlevler (Fonksiyonlar)](ch03-03-how-functions-work.md)
+    - [Yorumlar](ch03-04-comments.md)
+    - [Denetim akışı](ch03-05-control-flow.md)
 
-- [Understanding Ownership](ch04-00-understanding-ownership.md)
-    - [What is Ownership?](ch04-01-what-is-ownership.md)
-    - [References and Borrowing](ch04-02-references-and-borrowing.md)
-    - [The Slice Type](ch04-03-slices.md)
+- [İyeliği kavramak](ch04-00-understanding-ownership.md)
+    - [İyelik nedir](ch04-01-what-is-ownership.md)
+    - [Başvuru ve Ödünç İşleyişi](ch04-02-references-and-borrowing.md)
+    - [Dilim türü](ch04-03-slices.md)
 
-- [Using Structs to Structure Related Data](ch05-00-structs.md)
-    - [Defining and Instantiating Structs](ch05-01-defining-structs.md)
-    - [An Example Program Using Structs](ch05-02-example-structs.md)
-    - [Method Syntax](ch05-03-method-syntax.md)
+- [İlişkili Verileri Biçimlendirmek için Yapıları Kullanma](ch05-00-structs.md)
+    - [Yapıları Tanımlama ve Örnekleme](ch05-01-defining-structs.md)
+    - [Yapıları Kullanan Örnek bir Program](ch05-02-example-structs.md)
+    - [Yöntem (Metot) Söz Dizimi](ch05-03-method-syntax.md)
 
-- [Enums and Pattern Matching](ch06-00-enums.md)
-    - [Defining an Enum](ch06-01-defining-an-enum.md)
-    - [The `match` Control Flow Construct](ch06-02-match.md)
-    - [Concise Control Flow with `if let`](ch06-03-if-let.md)
+- [Sayımlar ve Örüntü Eşleme](ch06-00-enums.md)
+    - [Sayım Tanımlama](ch06-01-defining-an-enum.md)
+    - [`match` Denetim Akışı Yapısı](ch06-02-match.md)
+    - [`if let` ile Kısa Denetim Akışı Yapısı](ch06-03-if-let.md)
 
-## Basic Rust Literacy
+## Temel Rust Okuryazarlığı
 
-- [Managing Growing Projects with Packages, Crates, and Modules](ch07-00-managing-growing-projects-with-packages-crates-and-modules.md)
-    - [Packages and Crates](ch07-01-packages-and-crates.md)
-    - [Defining Modules to Control Scope and Privacy](ch07-02-defining-modules-to-control-scope-and-privacy.md)
-    - [Paths for Referring to an Item in the Module Tree](ch07-03-paths-for-referring-to-an-item-in-the-module-tree.md)
-    - [Bringing Paths Into Scope with the `use` Keyword](ch07-04-bringing-paths-into-scope-with-the-use-keyword.md)
-    - [Separating Modules into Different Files](ch07-05-separating-modules-into-different-files.md)
+- [Paketler, Kasalar ve Birimler (Modül) ile Büyüyen Tasarılarımızı Yönetme](ch07-00-managing-growing-projects-with-packages-crates-and-modules.md)
+    - [Paketler ve Kasalar](ch07-01-packages-and-crates.md)
+    - [Kapsam ve Gizliliği Denetlemek için Birimlerin Tanımlanması](ch07-02-defining-modules-to-control-scope-and-privacy.md)
+    - [Birim (Modül) Ağacında Ögeye Başvurma Yolları](ch07-03-paths-for-referring-to-an-item-in-the-module-tree.md)
+    - [`use` ile Yolları Kapsama Almak](ch07-04-bringing-paths-into-scope-with-the-use-keyword.md)
+    - [Birimleri (Modülleri) Ayrı Dosyalara Ayırma](ch07-05-separating-modules-into-different-files.md) # Birim?
 
-- [Common Collections](ch08-00-common-collections.md)
-    - [Storing Lists of Values with Vectors](ch08-01-vectors.md)
-    - [Storing UTF-8 Encoded Text with Strings](ch08-02-strings.md)
-    - [Storing Keys with Associated Values in Hash Maps](ch08-03-hash-maps.md)
+- [Yaygın Derlemler](ch08-00-common-collections.md)
+    - [Yöneylerle (Vektörler) Değer Dizelgelerini Saklama](ch08-01-vectors.md) # yöney
+    - [UTF-8 ile Kodlanmış Metni Dizgilerle Saklama](ch08-02-strings.md)
+    - [Karma Eşlemelerde (HashMap) İlişkili Açkı-Değer Eşleri Saklama](ch08-03-hash-maps.md) # (key-value pair)
 
-- [Error Handling](ch09-00-error-handling.md)
-    - [Unrecoverable Errors with `panic!`](ch09-01-unrecoverable-errors-with-panic.md)
-    - [Recoverable Errors with `Result`](ch09-02-recoverable-errors-with-result.md)
-    - [To `panic!` or Not to `panic!`](ch09-03-to-panic-or-not-to-panic.md)
+- [Yanlışlık (hata) İşleme](ch09-00-error-handling.md)
+    - [`panic!` ile Kurtarılamaz Yanlışlıklar](ch09-01-unrecoverable-errors-with-panic.md)
+    - [`Result` ile Kurtarılabilir Yanlışlıklar](ch09-02-recoverable-errors-with-result.md)
+    - [`panic!`lemek ya da `panic!`lememek](ch09-03-to-panic-or-not-to-panic.md)
 
-- [Generic Types, Traits, and Lifetimes](ch10-00-generics.md)
-    - [Generic Data Types](ch10-01-syntax.md)
-    - [Traits: Defining Shared Behavior](ch10-02-traits.md)
-    - [Validating References with Lifetimes](ch10-03-lifetime-syntax.md)
+- [Genel Türler, Nitelikler (Trait) ve Yaşam Süreleri](ch10-00-generics.md)
+    - [Genel Veri Türleri](ch10-01-syntax.md)
+    - [Nitelikler: Paylaşımlı Davranışı Tanımlama](ch10-02-traits.md)
+    - [Başvuruları Yaşam Süreleri ile Doğrulama](ch10-03-lifetime-syntax.md) # Başvuruların Geçerliliğini Yaşam Süreleriyle Denetleme
 
-- [Writing Automated Tests](ch11-00-testing.md)
-    - [How to Write Tests](ch11-01-writing-tests.md)
-    - [Controlling How Tests Are Run](ch11-02-running-tests.md)
-    - [Test Organization](ch11-03-test-organization.md)
+- [Kendiliğinden İşleyen Sınamalar Yazmak](ch11-00-testing.md) # Özdevimli, özişler
+    - [Sınamalar Nasıl yazılır](ch11-01-writing-tests.md) # Sınamalar
+    - [Sınamaların Nasıl Çalışacağını Denetlemek](ch11-02-running-tests.md)
+    - [Sınama Düzeninin Sağlanması](ch11-03-test-organization.md)
 
-- [An I/O Project: Building a Command Line Program](ch12-00-an-io-project.md)
-    - [Accepting Command Line Arguments](ch12-01-accepting-command-line-arguments.md)
-    - [Reading a File](ch12-02-reading-a-file.md)
-    - [Refactoring to Improve Modularity and Error Handling](ch12-03-improving-error-handling-and-modularity.md)
-    - [Developing the Library’s Functionality with Test Driven Development](ch12-04-testing-the-librarys-functionality.md)
-    - [Working with Environment Variables](ch12-05-working-with-environment-variables.md)
-    - [Writing Error Messages to Standard Error Instead of Standard Output](ch12-06-writing-to-stderr-instead-of-stdout.md)
+- [G/Ç Tasarısı: Komut Satırı Programı Yazmak](ch12-00-an-io-project.md) # cli
+    - [Komut Satırı Argümanlarını Üstlenmek](ch12-01-accepting-command-line-arguments.md) # beğımsız değişken?
+    - [Dosya Okumak](ch12-02-reading-a-file.md)
+    - [Birimselliği (Modülerliği) ve Yanlışlık İşlemeyi iyileştirmek için Yeniden Düzenlemek](ch12-03-improving-error-handling-and-modularity.md)
+    - [Sınama Güdümlü Geliştirmeyle Kütüphanenin İşlevselliğini Geliştirmek](ch12-04-testing-the-librarys-functionality.md) # Odaklı?
+    - [Ortam Değişkenleriyle Çalışmak](ch12-05-working-with-environment-variables.md)
+    - [Yanlışlık İletilerini Ölçünlü Çıktı (StdOut) Yerine Ölçünlü Yanlışlığa (StdErr) Yazmak](ch12-06-writing-to-stderr-instead-of-stdout.md) # yanılgı
 
-## Thinking in Rust
+## Rustça Düşünmek
 
-- [Functional Language Features: Iterators and Closures](ch13-00-functional-features.md)
-    - [Closures: Anonymous Functions that Capture Their Environment](ch13-01-closures.md)
-    - [Processing a Series of Items with Iterators](ch13-02-iterators.md)
-    - [Improving Our I/O Project](ch13-03-improving-our-io-project.md)
-    - [Comparing Performance: Loops vs. Iterators](ch13-04-performance.md)
+- [İşlevsel (Fonksiyonel) Dil Özellikleri: Yineleyiciler ve Kapanışlar](ch13-00-functional-features.md) # kapama, kapatma
+    - [Kapanışlar: Ortamlarını yakalayan Adsız İşlevler (Anonim fonksiyonlar)](ch13-01-closures.md)
+    - [Yineleyiciler ile Bir Dizi Ögeyi İşleme](ch13-02-iterators.md)
+    - [G/Ç Tasarımızı İyileştirme](ch13-03-improving-our-io-project.md)
+    - [Başarım Karşılaştırma: Döngülere karşı Yineleyiciler](ch13-04-performance.md)
 
-- [More about Cargo and Crates.io](ch14-00-more-about-cargo.md)
-    - [Customizing Builds with Release Profiles](ch14-01-release-profiles.md)
-    - [Publishing a Crate to Crates.io](ch14-02-publishing-to-crates-io.md)
-    - [Cargo Workspaces](ch14-03-cargo-workspaces.md)
-    - [Installing Binaries from Crates.io with `cargo install`](ch14-04-installing-binaries.md)
-    - [Extending Cargo with Custom Commands](ch14-05-extending-cargo.md)
+- [Cargo ve Crates.io Üzerine](ch14-00-more-about-cargo.md)
+    - [Yayım Belgileri (Profil) ile Kurgulamayı (Build) Özelleştirme](ch14-01-release-profiles.md) # kurgulama
+    - [Crates.io'ya Kasa Yayımlama](ch14-02-publishing-to-crates-io.md)
+    - [Cargo Çalışma Alanları](ch14-03-cargo-workspaces.md)
+    - [`cargo install` ile Crates.io'dan İkilikler (binary) kurma](ch14-04-installing-binaries.md) # Derlenmişler?
+    - [Cargo'yu Özel Komutlarla Genişletmek](ch14-05-extending-cargo.md)
 
-- [Smart Pointers](ch15-00-smart-pointers.md)
-    - [Using `Box<T>` to Point to Data on the Heap](ch15-01-box.md)
-    - [Treating Smart Pointers Like Regular References with the `Deref` Trait](ch15-02-deref.md)
-    - [Running Code on Cleanup with the `Drop` Trait](ch15-03-drop.md)
-    - [`Rc<T>`, the Reference Counted Smart Pointer](ch15-04-rc.md)
-    - [`RefCell<T>` and the Interior Mutability Pattern](ch15-05-interior-mutability.md)
-    - [Reference Cycles Can Leak Memory](ch15-06-reference-cycles.md)
+- [Akıllı Göstericiler (Pointers)](ch15-00-smart-pointers.md) # İşaretçi? Gösterge
+    - [`Box<T>` Kullanarak Öbekteki Veriyi Gösterme](ch15-01-box.md)
+    - [`Deref` Niteliğiyle Akıllı Göstericilere Olağan Başvurular gibi Davranmak](ch15-02-deref.md) # İşleme
+    - [`Drop` Niteliğiyle Temizlik Aşamasında Kod Çalıştırmak](ch15-03-drop.md)
+    - [`Rc<T>`, Başvuru Sayımlı Akıllı Gösterici](ch15-04-rc.md)
+    - [`RefCell<T>` ve  İç Değişebilirlik Örüntüsü](ch15-05-interior-mutability.md) # Yapısı
+    - [Başvuru Döngüleri Bellek Sızdırabilir](ch15-06-reference-cycles.md)
 
-- [Fearless Concurrency](ch16-00-concurrency.md)
-    - [Using Threads to Run Code Simultaneously](ch16-01-threads.md)
-    - [Using Message Passing to Transfer Data Between Threads](ch16-02-message-passing.md)
-    - [Shared-State Concurrency](ch16-03-shared-state.md)
-    - [Extensible Concurrency with the `Sync` and `Send` Traits](ch16-04-extensible-concurrency-sync-and-send.md)
+- [Korkusuz Eşzamanlılık](ch16-00-concurrency.md)
+    - [Kodu Eşzamanlı Çalıştırmak için İş Parçacıklarını Kullanmak](ch16-01-threads.md)
+    - [İş Parçacıkları Arasında Veri Aktarmak için İleti Geçirmek](ch16-02-message-passing.md) # İleti Geçirme
+    - [Durum Paylaşımlı Eşzamanlılık](ch16-03-shared-state.md)
+    - [`Sync` ve `Send` Nitelikleriyle Genişletilebilir Eşzamanlılık](ch16-04-extensible-concurrency-sync-and-send.md) # Uzatılabilir
 
-- [Object Oriented Programming Features of Rust](ch17-00-oop.md)
-    - [Characteristics of Object-Oriented Languages](ch17-01-what-is-oo.md)
-    - [Using Trait Objects That Allow for Values of Different Types](ch17-02-trait-objects.md)
-    - [Implementing an Object-Oriented Design Pattern](ch17-03-oo-design-patterns.md)
+- [Rust'ın Nesne Yönelimli Programlama Özellikleri](ch17-00-oop.md)
+    - [Nesne Yönelimli Dillere Özgü Özellikler](ch17-01-what-is-oo.md)
+    - [Ayrı Türde Verilere Olanak Tanıyan Nitelik Nesnelerini Kullanma](ch17-02-trait-objects.md)
+    - [Nesne Yönelimli Tasarım Örüntüsü Uygulanması](ch17-03-oo-design-patterns.md)
 
 ## Advanced Topics
 
-- [Patterns and Matching](ch18-00-patterns.md)
-    - [All the Places Patterns Can Be Used](ch18-01-all-the-places-for-patterns.md)
-    - [Refutability: Whether a Pattern Might Fail to Match](ch18-02-refutability.md)
-    - [Pattern Syntax](ch18-03-pattern-syntax.md)
+- [Örüntüler ve Eşleme](ch18-00-patterns.md)
+    - [Örüntülerin Kullanılabileceği Tüm Yerler](ch18-01-all-the-places-for-patterns.md)
+    - [Çürütülebilirlik: Bir Örüntünün Eşleşip Eşleşemeyeceği](ch18-02-refutability.md) # Çürütülebilirlik, Yanlışlanabilirlik
+    - [Örüntü Söz Dizimi](ch18-03-pattern-syntax.md)
 
-- [Advanced Features](ch19-00-advanced-features.md)
-    - [Unsafe Rust](ch19-01-unsafe-rust.md)
-    - [Advanced Traits](ch19-03-advanced-traits.md)
-    - [Advanced Types](ch19-04-advanced-types.md)
-    - [Advanced Functions and Closures](ch19-05-advanced-functions-and-closures.md)
-    - [Macros](ch19-06-macros.md)
+- [Gelişmiş Özellikler](ch19-00-advanced-features.md)
+    - [Güvenliksiz Rust](ch19-01-unsafe-rust.md) # Korunmasız
+    - [Gelişmiş Nitelikler](ch19-03-advanced-traits.md)
+    - [Gelişmiş Türler](ch19-04-advanced-types.md)
+    - [Gelişmiş İşlevler ve Kapanışlar](ch19-05-advanced-functions-and-closures.md)
+    - [Makrolar](ch19-06-macros.md)
 
-- [Final Project: Building a Multithreaded Web Server](ch20-00-final-project-a-web-server.md)
-    - [Building a Single-Threaded Web Server](ch20-01-single-threaded.md)
-    - [Turning Our Single-Threaded Server into a Multithreaded Server](ch20-02-multithreaded.md)
-    - [Graceful Shutdown and Cleanup](ch20-03-graceful-shutdown-and-cleanup.md)
+- [Bitirme Tasarısı: Çoklu İş Parçacıklı Web Sunucusu Yazmak](ch20-00-final-project-a-web-server.md)
+    - [Tek İş Parçacıklı Web Sunucusu Yazmak](ch20-01-single-threaded.md)
+    - [Tek İş Parçacıklı Sunucumuzu Çoklu İş Parçacıklı Sunucuya Çevirmek](ch20-02-multithreaded.md)
+    - [İncelikli Kapatma ve Temizlik Aşaması](ch20-03-graceful-shutdown-and-cleanup.md)
 
-- [Appendix](appendix-00.md)
-    - [A - Keywords](appendix-01-keywords.md)
-    - [B - Operators and Symbols](appendix-02-operators.md)
-    - [C - Derivable Traits](appendix-03-derivable-traits.md)
-    - [D - Useful Development Tools](appendix-04-useful-development-tools.md)
-    - [E - Editions](appendix-05-editions.md)
-    - [F - Translations of the Book](appendix-06-translation.md)
-    - [G - How Rust is Made and “Nightly Rust”](appendix-07-nightly-rust.md)
+- [Ekler](appendix-00.md)
+    - [A - Açkı Sözcükler](appendix-01-keywords.md)
+    - [B - İşleçler ve Simgeler](appendix-02-operators.md)
+    - [C - Türetilebilir Nitelikler](appendix-03-derivable-traits.md)
+    - [D - Kullanışlı Geliştirme Araçları](appendix-04-useful-development-tools.md)
+    - [E - Baskılar](appendix-05-editions.md)
+    - [F - Kitabın Çevirileri](appendix-06-translation.md)
+    - [G - “Gecelik Rust” ve Rust'ın Perde Arkası](appendix-07-nightly-rust.md)
+
+- [Özenli Türkçe](tr-00.md)
+    - [Terim ve Kavramlar](tr-01-terminology.md)
+    - [Dışlanmış Çeviriler ve Türkçeleştirme](tr-02-left-out.md)
