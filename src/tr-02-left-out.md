@@ -1,0 +1,3 @@
+# Dışlanmış Çeviriler ve Türkçeleştirme
+
+“...”
