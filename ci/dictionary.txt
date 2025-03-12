@@ -2,8 +2,6 @@ personal_ws-1.1 en 0 utf-8
 abcabcabc
 abcd
 abcdefghijklmnopqrstuvwxyz
-adaptor
-adaptors
 AddAssign
 Addr
 adfb
@@ -55,6 +53,7 @@ bool
 boolean
 Boolean
 Booleans
+booleans
 Bors
 BorrowMutError
 BoxMeUp
@@ -62,6 +61,7 @@ BTreeSet
 BufRead
 BufReader
 BuildHasher
+byteorder
 Cacher
 cacher
 Cagain
@@ -105,10 +105,12 @@ CustomSmartPointer
 CustomSmartPointers
 data's
 DataStruct
+dbea
 deallocate
 deallocated
 deallocating
 deallocation
+debounce
 debuginfo
 decl
 decrementing
@@ -145,10 +147,12 @@ DisplayBacktrace
 DivAssign
 DraftPost
 DSTs
+durations
 ebook
 ebooks
 Edsger
 egular
+ElementRef
 else's
 emoji
 encodings
@@ -179,6 +183,7 @@ filesystem's
 filesystems
 filmmaking
 Firefox
+FirstAwaitPoint
 FnMut
 FnOnce
 formatter
@@ -187,6 +192,8 @@ FrenchToast
 FromIterator
 FromResidual
 frontend
+FuturesUnordered
+GetAwaitPoint
 getrandom
 getter
 getters
@@ -197,6 +204,7 @@ grapheme
 Grapheme
 growable
 gzip
+handoff
 hardcode
 hardcoded
 hardcoding
@@ -241,7 +249,9 @@ inline
 instantiation
 internet
 interoperate
+IntoFuture
 IntoIterator
+intra
 InvalidDigit
 invariants
 ioerror
@@ -256,10 +266,12 @@ isize
 iter
 iterator's
 JavaScript
+JoinAll
 JoinHandle
 Kay's
 kinded
 Klabnik
+Krycho
 lang
 LastWriteTime
 latin
@@ -288,14 +300,19 @@ lval
 macOS
 Matsakis
 mathematic
+mdbook
 memoization
 metadata
 Metadata
 metaprogramming
 mibbit
 Mibbit
+microcontroller
+microcontrollers
 millis
 minigrep
+Miri
+miri
 mixup
 mkdir
 MockMessenger
@@ -307,10 +324,12 @@ monomorphized
 MoveMessage
 Mozilla
 mpsc
+MSRV
 msvc
 MulAssign
 multibyte
 multithreaded
+multithreading
 mutex
 mutex's
 Mutex
@@ -318,6 +337,7 @@ mutexes
 Mutexes
 MutexGuard
 mutext
+MyAsyncStateMachine
 MyBox
 myprogram
 namespace
@@ -358,7 +378,9 @@ OurError
 OutlinePrint
 overloadable
 overread
+PageTitleFuture
 PanicPayload
+parallelizable
 param
 parameterize
 ParseIntError
@@ -371,6 +393,7 @@ PlaceholderType
 polymorphism
 PoolCreationError
 portia
+postfix
 powershell
 PowerShell
 powi
@@ -396,6 +419,8 @@ RangeTo
 RangeFull
 README
 READMEs
+ReadFinished
+ReceiverStream
 rect
 recurse
 recv
@@ -438,6 +463,7 @@ sampleproject
 screenshot
 searchstring
 SecondaryColor
+SecondAwaitPoint
 SelectBox
 semver
 SemVer
@@ -455,6 +481,7 @@ SliceIndex
 Smalltalk
 snuck
 someproject
+SomeType
 someusername
 SPDX
 spdx
@@ -470,6 +497,7 @@ stdlib
 stdout
 steveklabnik's
 stringify
+StreamExt
 Stroustrup
 Stroustrup's
 struct
@@ -502,6 +530,7 @@ TcpListener
 TcpStream
 templating
 test's
+TextAwaitPoint
 TextField
 That'd
 there'd
@@ -514,6 +543,8 @@ tlborm
 tlsv
 TODO
 TokenStream
+Tokio
+tokio
 toml
 TOML
 toolchain
@@ -538,6 +569,8 @@ uncomment
 Uncomment
 uncommenting
 unevaluated
+unhandled
+unicode
 Uninstalling
 uninstall
 unittests
@@ -556,6 +589,7 @@ username
 USERPROFILE
 usize
 UsState
+util
 utils
 vals
 variable's
@@ -569,6 +603,7 @@ Vlissides
 vscode
 vtable
 waitlist
+wasi
 wasn
 weakt
 WeatherForecast
@@ -587,4 +622,5 @@ WriteMessage
 xcode
 xpression
 yyyy
+zerocopy
 ZipImpl

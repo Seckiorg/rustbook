@@ -1,8 +1,8 @@
 # Rust Programlama Dili
 
-*Steve Klabnik ve Carol Nichols tarafından, Rust Topluluğunun katkılarıyla*
+*Steve Klabnik, Carol Nichols ve Chris Krycho tarafından, Rust Topluluğunun katkılarıyla*
 
-Yazının bu sürümünde Rust 1.81.0 (2024-09-04 tarihli yayını) 
+Yazının bu sürümünde Rust 1.82.0 (2024-10-17 tarihli yayını) 
 veya üzeri bir sürümü kullandığınız varsayılmaktadır. 
 Rust'ı yüklemek veya güncellemek için 
 [Bölüm 1'in “Kurulum” kısmına][install]<!-- ignore -->

@@ -101,29 +101,37 @@
     - [Durum Paylaşımlı Eşzamanlılık](ch16-03-shared-state.md)
     - [`Sync` ve `Send` Nitelikleriyle Genişletilebilir Eşzamanlılık](ch16-04-extensible-concurrency-sync-and-send.md) # Uzatılabilir
 
-- [Rust'ın Nesne Yönelimli Programlama Özellikleri](ch17-00-oop.md)
-    - [Nesne Yönelimli Dillere Özgü Özellikler](ch17-01-what-is-oo.md)
-    - [Ayrı Türde Verilere Olanak Tanıyan Nitelik Nesnelerini Kullanma](ch17-02-trait-objects.md)
-    - [Nesne Yönelimli Tasarım Örüntüsü Uygulanması](ch17-03-oo-design-patterns.md)
+- [Async and Await](ch17-00-async-await.md)
+    - [Futures and the Async Syntax](ch17-01-futures-and-syntax.md)
+    - [Concurrency With Async](ch17-02-concurrency-with-async.md)
+    - [Working With Any Number of Futures](ch17-03-more-futures.md)
+    - [Streams](ch17-04-streams.md)
+    - [Digging Into the Traits for Async](ch17-05-traits-for-async.md)
+    - [Futures, Tasks, and Threads](ch17-06-futures-tasks-threads.md)
+
+- [Rust'ın Nesne Yönelimli Programlama Özellikleri](ch18-00-oop.md)
+    - [Nesne Yönelimli Dillere Özgü Özellikler](ch18-01-what-is-oo.md)
+    - [Ayrı Türde Verilere Olanak Tanıyan Nitelik Nesnelerini Kullanma](ch18-02-trait-objects.md)
+    - [Nesne Yönelimli Tasarım Örüntüsü Uygulanması](ch18-03-oo-design-patterns.md)
 
 ## Advanced Topics
 
-- [Örüntüler ve Eşleme](ch18-00-patterns.md)
-    - [Örüntülerin Kullanılabileceği Tüm Yerler](ch18-01-all-the-places-for-patterns.md)
-    - [Çürütülebilirlik: Bir Örüntünün Eşleşip Eşleşemeyeceği](ch18-02-refutability.md) # Çürütülebilirlik, Yanlışlanabilirlik
-    - [Örüntü Söz Dizimi](ch18-03-pattern-syntax.md)
+- [Örüntüler ve Eşleme](ch19-00-patterns.md)
+    - [Örüntülerin Kullanılabileceği Tüm Yerler](ch19-01-all-the-places-for-patterns.md)
+    - [Çürütülebilirlik: Bir Örüntünün Eşleşip Eşleşemeyeceği](ch19-02-refutability.md) # Çürütülebilirlik, Yanlışlanabilirlik
+    - [Örüntü Söz Dizimi](ch19-03-pattern-syntax.md)
 
-- [Gelişmiş Özellikler](ch19-00-advanced-features.md)
-    - [Güvenliksiz Rust](ch19-01-unsafe-rust.md) # Korunmasız
-    - [Gelişmiş Nitelikler](ch19-03-advanced-traits.md)
-    - [Gelişmiş Türler](ch19-04-advanced-types.md)
-    - [Gelişmiş İşlevler ve Kapanışlar](ch19-05-advanced-functions-and-closures.md)
-    - [Makrolar](ch19-06-macros.md)
+- [Gelişmiş Özellikler](ch20-00-advanced-features.md)
+    - [Güvenliksiz Rust](ch20-01-unsafe-rust.md) # Korunmasız
+    - [Gelişmiş Nitelikler](ch20-03-advanced-traits.md)
+    - [Gelişmiş Türler](ch20-04-advanced-types.md)
+    - [Gelişmiş İşlevler ve Kapanışlar](ch20-05-advanced-functions-and-closures.md)
+    - [Makrolar](ch20-06-macros.md)
 
-- [Bitirme Tasarısı: Çoklu İş Parçacıklı Web Sunucusu Yazmak](ch20-00-final-project-a-web-server.md)
-    - [Tek İş Parçacıklı Web Sunucusu Yazmak](ch20-01-single-threaded.md)
-    - [Tek İş Parçacıklı Sunucumuzu Çoklu İş Parçacıklı Sunucuya Çevirmek](ch20-02-multithreaded.md)
-    - [İncelikli Kapatma ve Temizlik Aşaması](ch20-03-graceful-shutdown-and-cleanup.md)
+- [Bitirme Tasarısı: Çoklu İş Parçacıklı Web Sunucusu Yazmak](ch21-00-final-project-a-web-server.md)
+    - [Tek İş Parçacıklı Web Sunucusu Yazmak](ch21-01-single-threaded.md)
+    - [Tek İş Parçacıklı Sunucumuzu Çoklu İş Parçacıklı Sunucuya Çevirmek](ch21-02-multithreaded.md)
+    - [İncelikli Kapatma ve Temizlik Aşaması](ch21-03-graceful-shutdown-and-cleanup.md)
 
 - [Ekler](appendix-00.md)
     - [A - Açkı Sözcükler](appendix-01-keywords.md)
