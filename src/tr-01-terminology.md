@@ -44,6 +44,7 @@
 * **Dereference** → **indirection**: Dolaylama
 * **Declaration**: Bildiri, beyan
 * **Implicit(ly)** & **Explicit(ly)**: Örtük _istemli_ & Açık _istemli_ [^implicit-and-explicit]
+* **Literal** (expressions): Sözdizimsel gösterim (deyimleri)
 * **Mutability**: Değişebilirlik, Değiştirilebilirlik
 	* **Mutable**: Değişebilir
 	* **Immutable**: Değiş**e**mez, Değiştirilemez, _kalıcı?_
